@@ -16,7 +16,7 @@ export default function Restaurant() {
             />
           </div>
           <div>
-            <h1 className="text-emerald-600 text-5xl font-semibold !leading-tight">
+            <h1 className="text-emerald-600 text-3xl lg:text-4xl font-semibold !leading-tight">
               Nuestro restaurante
             </h1>
             <p className="mt-6 leading-7">

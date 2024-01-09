@@ -20,18 +20,33 @@ export default function Hero() {
                 Come rico, come diferente, come en Panda Express!
               </h1>
               <div className="flex gap-6 text-5xl">
-                <FontAwesomeIcon
-                  className="cursor-pointer hover:scale-125"
-                  icon={faWhatsapp}
-                />
-                <FontAwesomeIcon
-                  className="cursor-pointer hover:scale-125"
-                  icon={faInstagram}
-                />
-                <FontAwesomeIcon
-                  className="cursor-pointer hover:scale-125"
-                  icon={faFacebook}
-                />
+                <a
+                  target="__blank"
+                  href="https://www.instagram.com/panda.express20/"
+                >
+                  <FontAwesomeIcon
+                    className="cursor-pointer hover:scale-125"
+                    icon={faWhatsapp}
+                  />
+                </a>
+                <a
+                  target="__blank"
+                  href="https://www.instagram.com/panda.express20/"
+                >
+                  <FontAwesomeIcon
+                    className="cursor-pointer hover:scale-125"
+                    icon={faInstagram}
+                  />
+                </a>
+                <a
+                  target="__blank"
+                  href="https://www.instagram.com/panda.express20/"
+                >
+                  <FontAwesomeIcon
+                    className="cursor-pointer hover:scale-125"
+                    icon={faFacebook}
+                  />
+                </a>
               </div>
             </div>
             <div className="grid justify-items-center">

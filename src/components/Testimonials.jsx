@@ -36,6 +36,9 @@ export default function Testimonials() {
         id="testigos"
         className="mt-16 bg-gradient-to-r from-emerald-700 via-emerald-600 to-emerald-500 py-12 px-4 lg:p-18 shadow-2xl"
       >
+        <h1 className="text-white text-center tracking-wide font-semibold text-3xl lg:text-4xl font-sans drop-shadow-md mb-12">
+          Testigos
+        </h1>
         <div className="flex flex-wrap justify-around gap-6 lg:gap-12">
           {testimonials.map((testimonial) => (
             <div
